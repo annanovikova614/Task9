@@ -12,6 +12,7 @@ import java.util.Scanner;
 
 
 public class Main {
+
     public static void main(String[] args) throws IOException {
         int testNumber = readNumberFile();
         File file = new File("src/com/company/Tests/input" + testNumber + ".txt");
